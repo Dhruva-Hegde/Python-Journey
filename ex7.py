@@ -11,3 +11,7 @@ print(car.get("maruti"))
 
 
 print(car.get("tata","Not found"))
+
+
+car["tata"]="nexon"
+print(car)
